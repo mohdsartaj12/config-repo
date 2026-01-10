@@ -1,6 +1,2 @@
 server:
   port: 8081
-
-app:
-  message: hello from config server
-
