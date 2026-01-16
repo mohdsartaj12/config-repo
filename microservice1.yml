@@ -4,3 +4,10 @@ server:
 spring:
   application:
     name: MICROSERVICES1
+  zipkin:
+    base-url: http://3.111.29.117:9411
+
+management:
+  tracing:
+    sampling:
+      probability: 1.0
